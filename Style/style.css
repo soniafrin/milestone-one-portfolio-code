@@ -67,7 +67,7 @@ nav .menu li a{
   align-items: center;
   /* border: 1px solid rebeccapurple; */
   max-width: 1332px;
-  margin:0 38px 0 230px;
+  margin:50px 38px 0 230px;
 
 }
 .banner-content{
@@ -98,9 +98,63 @@ nav .menu li a{
   margin-right: 30px;
 }
 .header-content-btn .space{
-  margin-right: 30px;
+  margin-left: 30px;
+  background-color: #FFF8F3;
+  color: #FD6E0A;
+  border: 1px solid #FD6E0A;
 }
 .banner-image img{
   max-width: 584px;
   vertical-align: middle;
 }
+
+#about{
+  padding-top: 121px;
+}
+
+#about .about-container{
+  width: 72%;
+  max-width: 1140px;
+  background-color: #FFF8F3;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 131px 156px;
+}
+
+#about .section-heading h2{
+  max-width: 827px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 30px;
+
+}
+#about .section-heading p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+#about .about-info{
+  display: flex;
+  /* gap: 50px; */
+  justify-content:space-around;
+}
+.about-info .info-card p{
+  font-size: 20px;
+  line-height: 30px;
+  color: #757575;
+  font-weight: 400;
+  /* font-weight: mixed; */
+  
+}
+.about-info .info-card h4{
+  font-size: 20px;
+  line-height: 30px;
+  color: #474747;
+    font-weight: 700;
+
+}
+
