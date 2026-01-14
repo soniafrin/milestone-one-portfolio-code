@@ -10,7 +10,7 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
-#about, #skills, #resume{
+#about, #resume{
   margin: 130px;
 }
 
@@ -145,17 +145,18 @@ nav .menu li a{
   /* max-width: 782px; */
 }
 .about-info .info-card p{
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
   color: #757575; 
   /* font-weight: mixed; */
   
 }
 .about-info .info-card h4{
-  font-size: 20px;
+  font-size: 18px;
   color: #474747;
     font-weight: bold;
 }
+/* skilssssssssssss */
 
 .skills-container{
   width: 72%;
@@ -163,8 +164,6 @@ nav .menu li a{
   margin: 0 auto;
 }
 .skills-heading{
-  max-width: 827px;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -185,21 +184,24 @@ nav .menu li a{
 }
 
 .skills-div{
+  max-width: 100%;
   display: flex;
   gap: 24px;
   padding-top: 50px;
+  justify-content: center;
 }
 .skills-card{
+  max-width: 100%;
   /* border: 1px solid rebeccapurple; */
   border-radius: 5px;
   box-shadow:0 6px 50px 0 #00000028;
-  max-width: 267px;
+  
 }
 .skills-card img{
   padding: 30px;
 }
 .skills-card .skills-info{
-  padding:0 30px 30px;
+  padding: 30px;
 }
 .skills-info h4{
   font-size: 20px;
@@ -301,5 +303,71 @@ hr{
   margin-top: 24px;
   color: white;
 }
+.hide{
+  display: none;
+}
+
+@media screen and (max-width:576px){
+  #about, 
+  #skills, 
+  #resume,
+  #footer-container{
+  margin: 50px 10px;
+}
+   #about .about-container,
+  .skills-container{
+  max-width: 100%;
+} 
+#about .about-info, 
+.skills-div,
+.resume-body,
+#footer-container{
+  flex-direction: column;
+
+}
+/* about */
+#about .about-container{
+  max-width: 100%;
+  width: 370px;
+  padding: 10px;
+}
+.about-info .info-card {
+  margin-bottom: 10px;
+}
+
+/* resume */
+#resume{
+  max-width: 100%;
+  
+}
+
+.resume-heading h2{
+  margin-bottom: 40px;
+}
+hr {
+    margin-bottom: 0;
+}
+.text-align {
+   margin-top: 20px;
+}
+.skills-card .skills-info {
+    padding-top: 0;
+}
+.skills-card .skills-info h4{
+    margin-bottom: 10px;
+}
+#footer-container{
+  padding: 0;
+  gap: 50px;
+}
+#footer-container .contacts, .form{
+  text-align: center;
+}
+
+
+
+}
+
+
 
 
